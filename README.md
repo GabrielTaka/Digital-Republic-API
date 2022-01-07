@@ -56,7 +56,23 @@
 
 <h3> Descrição dos teste sobre criação de uma nova conta </h3>
 
-<p> - Registro de um novo customer e sua conta bancária, sem saldo informado </p>
-<p> - Registro de um novo customer e sua conta bancária, com saldo informado </p>
+<code> - Registro de um novo customer e sua conta bancária, sem saldo informado. </code><br>
+<code> - Registro de um novo customer e sua conta bancária, com saldo informado. </code><br>
+<code> - Registro de um customer sem CPF informado. </code><br>
+<code> - Registro de um customer e sua conta bancária, porém já existe uma conta ao cpf informado. </code><br>
+<code> - Registro de um customer sem o nome completo informado. </code><br>
+<code> - Registro de um customer sem o nome completo informado. </code><br>
+<code> - Registro de um customer com cpf inválido. </code><br>
+<code> - Registro de um customer com saldo negativo. </code><br>
 
+<h3> Descrição dos teste sobre depósito para a própria conta bancária </h3>
+<code>Depósito respeitando o limite de R$2000</code><br>
+<code>Depósito não respeitando o limite de R$2000</code><br>
+<code>Depósito com valor negativo</code><br>
  
+<h3> Descrição dos teste sobre transferência bancária entre contas. </h3>
+<code>Transação respeitando o limite de R$2000</code><br>
+<code>Transação não respeitando o limite de R$2000</code><br>
+<code>Transação com valor negativo</code><br>
+<code>Transação com o montante maior do que o disponível em conta</code><br>
+
