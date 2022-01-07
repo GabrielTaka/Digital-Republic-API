@@ -20,7 +20,7 @@
 # Rotas da API
 
 <h3> Cadastrar uma nova conta Bancária</h3>
-<code> Método: put </code> <br>
+<code> Método: post </code> <br>
 <code> Url: http://localhost:3000/account </code><br>
 <code>
   Payload: {
