@@ -7,5 +7,4 @@ app.use(cors());
 const AccountRoutes = require('./routes/AccountRoutes');
 app.use('/account', AccountRoutes);
 
-
 module.exports = app.listen(3000);
