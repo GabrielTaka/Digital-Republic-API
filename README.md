@@ -59,8 +59,7 @@
 <code> - Registro de um novo customer e sua conta bancária, sem saldo informado. </code><br>
 <code> - Registro de um novo customer e sua conta bancária, com saldo informado. </code><br>
 <code> - Registro de um customer sem CPF informado. </code><br>
-<code> - Registro de um customer e sua conta bancária, porém já existe uma conta ao cpf informado. </code><br>
-<code> - Registro de um customer sem o nome completo informado. </code><br>
+<code> - Registro de um customer e sua conta bancária, porém já existe uma conta atrelada ao cpf informado. </code><br>
 <code> - Registro de um customer sem o nome completo informado. </code><br>
 <code> - Registro de um customer com cpf inválido. </code><br>
 <code> - Registro de um customer com saldo negativo. </code><br>
