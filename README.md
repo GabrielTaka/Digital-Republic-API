@@ -5,13 +5,13 @@
 # Preparando Ambiente
 <p> Abaixo os pré-requisitos necessários para que a API execute corretamente em localhost:3000 <p>
 
-<h5> Instale o Node.js <h5>
+<h3> Instale o Node.js </h3>
 <span> Acesse esse <a href="https://nodejs.org/en/download/" target="_blank"> link </a> e faça o download do node.js em sua última versão </span>
 
-<h5> Instale o MongoDb </h5>
+<h3> Instale o MongoDb </h3>
 <span> Acesse esse <a href="https://www.mongodb.com/try/download/community" target="_blank"> link </a> e faça o download do MongoDb </span>
 
-<h5> Instale o MongoDb Compass </h5>
+<h3> Instale o MongoDb Compass </h3>
 <span> Acesse esse <a href="https://www.mongodb.com/try/download/compass" target="_blank"> link </a> e faça o download do MongoDb Compass </span>
   
   
