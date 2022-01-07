@@ -54,7 +54,7 @@
 <p> Para executar os testes desenvolvidos utilizando JEST, execute o comando <strong>npm test</strong></p>
 <p> <strong> Atenção </strong>, após executar os testes uma vez, caso queira executa-los novamente é aconselhável que a base de dados seja limpa, o motivo disso é devido a um requisito funcional do sistema onde um usuário (cpf) pode ter somente uma única conta bancária. </p>
 
-<h3> Descrição dos teste sobre criação de uma nova conta </h3>
+<h3> Descrição dos testes sobre criação de uma nova conta </h3>
 
 <code> - Registro de um novo customer e sua conta bancária, sem saldo informado. </code><br>
 <code> - Registro de um novo customer e sua conta bancária, com saldo informado. </code><br>
@@ -64,14 +64,16 @@
 <code> - Registro de um customer com cpf inválido. </code><br>
 <code> - Registro de um customer com saldo negativo. </code><br>
 
-<h3> Descrição dos teste sobre depósito para a própria conta bancária </h3>
-<code>Depósito respeitando o limite de R$2000</code><br>
-<code>Depósito não respeitando o limite de R$2000</code><br>
-<code>Depósito com valor negativo</code><br>
+<h3> Descrição dos testes sobre depósito para a própria conta bancária </h3>
+
+<code> - Depósito respeitando o limite de R$2000</code><br>
+<code> - Depósito não respeitando o limite de R$2000</code><br>
+<code> - Depósito com valor negativo</code><br>
  
-<h3> Descrição dos teste sobre transferência bancária entre contas. </h3>
-<code>Transação respeitando o limite de R$2000</code><br>
-<code>Transação não respeitando o limite de R$2000</code><br>
-<code>Transação com valor negativo</code><br>
-<code>Transação com o montante maior do que o disponível em conta</code><br>
+<h3> Descrição dos testes sobre transferência bancária entre contas. </h3>
+
+<code> - Transação respeitando o limite de R$2000</code><br>
+<code> - Transação não respeitando o limite de R$2000</code><br>
+<code> - Transação com valor negativo</code><br>
+<code> - Transação com o montante maior do que o disponível em conta</code><br>
 
